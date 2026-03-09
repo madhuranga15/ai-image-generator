@@ -1,4 +1,5 @@
-screenshot1.png
+README.md
+screenshot.png
 
 # AI Image Generator
 

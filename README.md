@@ -1,11 +1,11 @@
-README.md
-screenshot.png
-
 # AI Image Generator
+
+![AI Image Generator Screenshot](screenshot1.png)
 
 A modern AI image generator built with HTML, CSS and JavaScript.
 
-Features
+## Features
+
 - Generate AI images
 - Image history
 - Download images

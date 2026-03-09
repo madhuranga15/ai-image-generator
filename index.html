@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>AI Image Generator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>AI Image Generator</h1>
+
+<button onclick="toggleMode()" class="mode-btn">🌙 Dark/Light Mode</button>
+
+<div class="search-box">
+
+<input id="prompt" placeholder="Describe your image...">
+
+<button onclick="aiPrompt()" class="ai-btn">✨ AI Prompt</button>
+
+<button onclick="generate()" class="gen-btn">Generate</button>
+
+</div>
+
+<div id="loading"></div>
+
+<div id="result" class="gallery"></div>
+
+<h2>History</h2>
+
+<div id="history" class="gallery"></div>
+
+</div>
+
+<div id="preview" class="preview" onclick="closePreview()">
+<img id="previewImg">
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
